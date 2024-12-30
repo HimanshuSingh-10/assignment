@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #102ABB;
+    font-family: Arial, sans-serif;
+}
+ 
+.todo-app {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+}
+ 
+.imgg{
+    width: 25px;
+    height: 25px;
+}
+
+.container {
+    text-align: center;
+}
+ 
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+ 
+input[type="text"] {
+    width: 65%;
+    padding: 18px;
+}
+ 
+button {
+    padding: 10px 20px;
+    background-color: #2BC7F6;
+    border-radius: 10px;
+}
+ 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+ 
+li.checked {
+    text-decoration: line-through;
+}
+ 
+span {
+    cursor: pointer;
+    color: red;
+}
+ 
+.quantity {
+    display: flex;
+    align-items: center;
+}
+ 
+.quantity .icon {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1.5em; 
+}
+ 
+.total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 1.2em;
+}
